@@ -1,0 +1,205 @@
+.menu1 {
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+
+.tasty {
+  background-color: rgb(34, 40, 49);
+  width: 500px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.pizza {
+  background-color: rgb(34, 40, 49);
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.o1 {
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 75px;
+  cursor: pointer;
+  border-bottom-color: rgb(255, 190, 51);
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 4.8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(255, 190, 51);
+  border-left-style: solid;
+  border-left-width: 4.8px;
+  border-right-color: rgb(255, 190, 51);
+  border-right-style: solid;
+  border-right-width: 4.8px;
+  border-top-color: rgb(255, 190, 51);
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-top-style: solid;
+  border-top-width: 4.8px;
+  transition: 0.5s;
+}
+
+.o1:hover {
+  transform: scale(1.1);
+}
+
+.offer {
+  height: 174px;
+  margin-left: 10px;
+}
+
+.offer1 {
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.offer2 {
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.offf {
+  font-size: 24px;
+}
+
+.menu-food {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  margin-left: 600px;
+}
+
+.name {
+  margin-left: 60px;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.all {
+  margin-left: -120px;
+}
+
+.one {
+  border: none;
+  background-color: white;
+  margin-right: 40px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  font-weight: 400;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.one:hover {
+  background-color: rgb(34, 40, 49);
+  color: white;
+}
+
+
+
+.menu-items {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.class1 {
+  margin-right: 100px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  border-radius: 20px;
+}
+
+
+.text4 {
+  background-color: rgb(34, 40, 49);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.img4 {
+  background-color: rgb(241, 242, 243);
+  height:170px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.class2 {
+  height: 140px;
+  margin-left: 80px;
+  margin-top: 16px;
+  transition: 0.5s;
+}
+
+.img4 .class2:hover {
+  transform: scale(1.2);
+}
+
+.class6 {
+  color: white;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.class7 {
+  color: white;
+  margin-left: 20px;
+  margin-top: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.class8 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price {
+  margin-left: 20px;
+  font-size: 20px;
+  color: wheat;
+}
+
+.cart {
+  margin-right: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.button11 {
+  margin-left: 670px;
+  margin-top: 40px;
+}

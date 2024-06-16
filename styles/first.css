@@ -1,0 +1,155 @@
+.first-page {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../food/burger.jpg');
+  background-size: cover;
+  width: 1520px;
+  height: 800px;
+}
+
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.slide {
+  margin-top: 100px;
+  width: 800px;
+  margin-left: 200px;
+  height: 200px;
+}
+
+.right {
+  margin-left: 200px;
+  margin-right: 300px;
+}
+
+.feane {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.middle {
+  display: flex;
+  margin-right: 160px;
+
+}
+
+.text {
+  margin-right: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  margin-top: 22px;
+}
+
+.text:hover {
+  color: rgb(255, 190, 51);
+}
+
+.image1 {
+  height: 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.image2 {
+  height:20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.image3 {
+  height: 18px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.image1:hover {
+  filter: drop-shadow(1px 1px 1px rgb(255, 190, 51));
+}
+
+.image2:hover {
+  filter: drop-shadow(1px 1px 1px rgb(255, 190, 51));
+}
+
+.image3:hover {
+  filter: drop-shadow(1px 1px 1px rgb(255, 190, 51));
+}
+
+
+
+.button {
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  background-color: rgb(255, 190, 51);
+  margin-bottom: 3px;
+}
+
+.online {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  margin-top: 10px;
+  color: white;
+  font-family: Arial;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+.button:hover {
+  background-color: rgb(217, 153, 16);
+}
+
+.fast-food {
+  margin-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.detail {
+  width: 500px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.spinner {
+  width: 200px;
+  margin-top: 60px;
+  margin-left: 190px;
+}
+
+.rotate {
+  height: 200px;
+  border-radius: 100px;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  animation: spin 10s linear infinite;
+  cursor: pointer;
+  transition: 0.001s;
+}
+
+.rotate:hover {
+  transform: scale(1.2);
+}
+
+@-webkit-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
